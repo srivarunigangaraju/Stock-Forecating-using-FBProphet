@@ -1,0 +1,124 @@
+Welcome back to Task number eight.
+In the previous task, we explored the fundamentals of Tesla
+and concluded the forecasting.
+In this task, we are going to automate the entire forecasting
+process for other stocks. We will be basically learning a life hack
+that will save you countless hours.
+We will be automating the process in such a way
+that once you upload the data of your favorite stock
+within seconds and yes, I mean seconds, you'll receive
+a forecast with all the necessary visualization. 
+This life hack can save
+your time.
+There are countless stocks out there.
+Some of you might already be thinking about implementing
+Facebook Prophet to your favourite stock.
+Maybe Apple.
+Amazon.
+Netflix or stocks of some pharmaceutical company.
+It is not very practical to repeat the entire process
+of importing libraries, dataset, performing visualization
+and creating models and forecasting and then evaluating 
+for every single stock line by line and code by code.
+So we are going to automate the codes so that you can upload
+the data of your favourite stock, and within seconds
+the forecast will be downloaded and then you can go to Google Sheets
+and perform evaluation.
+This will be really helpful in real life scenarios.
+I know investors who analyze hundreds of stocks
+before they put their money. so let's automate it.
+So we are in Yahoo Finance's
+Homepage.
+You can access this place by clicking over here in Yahoo Finance.
+And now we're going to search for another stock.
+So search for any stock that you want.
+Search for your favourite stock: Amazon, Google, Netflix
+or some pharmaceutical company.
+Choose any stock that you want.
+I'm going to choose Amazon.
+"AMZN" is the ticker symbol and let's click on it.
+Let's go to "historical data" and let's click on "Apply".
+I want one year of historical data and click on "download".
+So "AMZN.csv" has been downloaded.
+It is saved in the "downloads" folder.
+So now let's go back to our learner notebook. 
+ Go to "File" and click on "Save a copy in drive".
+So we are going to create a new copy.
+It is creating a copy.
+So this is the "copy of learner notebook Prophet".
+Let's rename it "Forecasting Automation"
+and then click on "Run time", then click on
+"Change Runtime Type"
+Its GPU.
+And if GPU is not selected, select GPU.
+Click on "Save". Click on "Connect" and now all we have
+to do is change the ticker symbol of Tesla with Amazon.(AMZN)
+Let's go over here.
+Let's click on this button.
+Let's go to "downloads" and let's select "AMZN.csv".
+Click on OK. And that's all that we have to do.
+Replace this stock symbol with the symbol of stock
+that you have downloaded and that's all we have to do.
+Now click on "Run time" and click on "Run all".
+So libraries have been imported, and probably
+within seconds we will get our forecast file. 
+Probably within 10 to 20 seconds.
+So, as you can see "forecast.csv" has been downloaded,
+and I think it took less than 10 seconds.
+So you can again take this "forecast.csv"
+and go to Google Sheets and perform an evaluation if you want.
+So this "forecast.csv"
+represents Amazon and not Tesla.
+So we can scroll down here and you can see that this represents Amazon:
+open price, high price, low price, close price.
+Let's scroll down below.
+And this is the last 1-year performance of Amazon. 
+So this graph is completely different.
+I told you, this is of Amazon and not Tesla.
+So when we scroll below, you can get this line graph
+and we get this volume, bar graph and this is the box plot.
+When you scroll down further, you can see under forecasting, 
+we get this line graph and this is
+the forecasting visualizations.
+These black dots are the actual price of Amazon, and this blue line
+is our forecasting created by Facebook Prophet. 
+This blue line over here is Y_hat. 
+This is Y_hat lower and this is Y_hat upper.
+So as you can see, within less than 10 seconds, we got
+all of this.
+That would normally take us 30 minutes to one hour.
+You can basically repeat this step for any stock out there.
+We don't need to go through the hassle of importing libraries,
+creating visualization and creating models, forecasting code by code.
+We don't need to type any code.
+And probably within a few hours you can analyze and forecast
+hundreds of stocks out there saving you hundreds of hours
+of modeling and forecasting.
+I mean, how much time did it take?
+Less than a minute which otherwise would have taken you
+at least 30 minutes to one hour.
+So please go to Google Sheets and you can then explore
+your favourite stock.
+So that's all for this guided project.
+Congratulations on completing this project.
+I hope you enjoyed this project and learned quite a few things
+about Facebook Prophet.
+In this project, we learned how to import libraries and dataset
+and create a Facebook Prophet forecast model to predict
+the price of Tesla for the future 30 days.
+Then we learn how to extract financial data in Google Sheets
+using Google Finance and compared the actual data with the
+predicted data and evaluated the performance of the model.
+We also went to Yahoo Finance and we explored the fundamentals
+of Tesla.
+We then automated the entire forecasting process.
+You can be proud of the skills that you have learned.
+The same skills can be applied to analyze any other stock
+of your choice.
+The Google Sheet will be saved on your drive.
+Your Google Colab notebook will also be saved on your
+drive in the folder "Colab notebooks" from where you can
+access it easily.
+Please don't forget to log out from the Gmail Id.
+Congratulations once again
+and thank you so much for your time.
